@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemaKGym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url("IMG/bg2.1.png")  ;
+            height: 2206px;
+            color: white;
+            
+        }
+        .left{
+            display: inline-block;
+            /* border: 2px solid #adff2f; */
+            position: absolute;
+            left: 15px;
+            top: 10px;
+            /* float: left; */
+        }
+        .mid{
+            /* position: absolute; */
+            display: block;
+            width: 33%;
+            margin: 10px auto;
+            /* border: 2px solid red; */
+            /* float: left; */
+        }
+        .right{
+            position: absolute;
+            display: inline-block;
+            /* border:  2px solid blue; */
+            right: 15px;
+            top: 10px;
+            /* float: left; */
+        }
+        .navbar li{
+            display: inline-block; 
+            font-size: 23px;   
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 21px;
+            font-family: 'Exo 2', sans-serif;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            border: 1px solid gainsboro;
+            color: gainsboro;
+            
+        }
+        div img{
+            display: block;
+            margin: auto;
+            
+            width: 33px;
+            height: 33px;
+        }
+        .left div{
+            font-family: 'Exo 2', sans-serif;
+        }
+        /* .right button {
+            width: 98px;
+    height: 54px;
+    color: white;
+    background: transparent;
+        } */
+        .btn{
+            width: 98px;
+    height: 41px;
+    color: white;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+            padding: 4px 4px;
+            cursor: pointer;
+            font-family: 'Exo 2', sans-serif;
+        }
+        .right .btn:hover{
+            background-color: rgb(48, 48, 49);
+        }
+        .container{
+            text-align: center;
+            border: 2px solid rgb(248, 248, 247);
+    margin: 746px 141px;
+    padding: 60px;
+    width: 33%;
+    border-radius: 15px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+    .forminput input{
+        width: 69%;
+        padding: 5px;
+        margin: 2px;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+    }
+    .container button{
+        width: 72%;
+        display: block;
+        margin: 10px auto;
+    }
+    .container .btn:hover{
+            background: lightslategrey;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="IMG\Logo.png" alt="">
+            <div>Rema ke Gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us Now</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Rema k Gym aao Body Banao</h1>
+        <form action="#">
+            <div class="forminput">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="forminput">
+                <input type="text" placeholder="Enter Your Email">
+            </div>
+            <div class="forminput">
+                <input type="text" placeholder="Enter Your Contact">
+            </div>
+            <div class="forminput">
+                <input type="text" placeholder="Enter Your Weight">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
